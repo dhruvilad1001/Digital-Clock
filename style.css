@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-size: 100vw 100vh;
+}
+.container{
+    background-color: rgba(127, 255, 212, 0);
+    width: 40vw;
+    height: 70vh;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-shadow: 0px 0px 120px;
+}
+.clock{
+    height: 100%;
+}
+.clock1{
+    width: 55%;
+    /* background-color: azure; */
+}
+.clock2{
+    width: 45%;
+    /* background-color: beige; */
+    padding-top:20px ;
+    box-sizing: border-box;
+}
+#hrs{
+    height: 40%; 
+    /* background-color: dimgrey; */
+    text-align: center;
+    font-size: 150px;
+}
+#min{
+    height: 40%; 
+    /* background-color: darkgrey; */
+    text-align: center;
+    font-size: 150px;
+}
+#colon{
+    height: 20%; 
+    /* background-color: grey; */
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+#mon{
+    margin-left: 5px;
+}
+.date{
+    height: 10%;
+    font-size: 40px;
+}
+#year{
+    height: 20%;
+    font-size: 60px;
+}
+#day{
+    height: 20%;
+    font-size: 50px;
+    margin-top: -20px;
+}
+#am-pm{
+    height: 20%;
+    font-size: 80px;
+    padding-top: 30px;
+}
+#sec{
+    height: 30%;
+    font-size: 80px;
+    margin-top: 0px;
+}
